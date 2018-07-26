@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bfff+0,28377e+100 */
+	background: rgb(0,191,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,191,255,1) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,191,255,1) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,191,255,1) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfff', endColorstr='#28377e',GradientType=1 ); /* IE6-9 */
+	padding: 10px 0;
+	box-shadow: 0 2px 6px #0000007a;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-grow: 1;
+    /* background: red; */
+    max-width: 20%;
+}
+.logo img{}
+.signin{
+    flex-grow: 1;
+    max-width: 80%;
+}
+.signin form{}
+.signin form ul{
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+.signin form ul li{
+    list-style: none;
+    padding: 0 5px;
+}
+.signin form ul li input{
+    border: 1px solid transparent;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.signin form ul li input[type="submit"]{
+
+padding-left: 40px;
+
+padding-right: 40px;
+
+background: transparent;
+
+border: 1px solid #fff;
+
+color: #fff;
+}
+.signin form ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.signin form ul li a:hover{}
+.sign-up-section{
+    background: url(../images/naiem.png);
+    background-repeat: no-repeat;
+    min-height: 93vh;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+}
+.signup-form{
+    width: 500px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 35px;
+    box-shadow: 0 0 12px #444;
+}
+.signup-form .signup-heading{
+    text-align: center;
+}
+.signup-form .signup-heading h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #28377e;
+}
+.signup-form .signup-heading p{
+    font-size: 16px;
+    color: #616161;
+}
+
+
+.signup-form form{
+}
+.signup-form form input{
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(40, 55, 126, 0.2);
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px; 
+}
+.signup-form form p{text-align: center;color: #7b7b7b;margin: 15px 0;}
+.signup-form form input[type="submit"]{
+	background: rgb(0,191,255); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,191,255,1) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,191,255,1) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,191,255,1) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfff', endColorstr='#28377e',GradientType=1 ); /* IE6-9 */
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 1px solid #fff;
+	color: #fff; 
+ 
+}
+.signup-form form input[type="submit"]:hover{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28377e+0,00bfff+100 */
+background: rgb(40,55,126); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(40,55,126,1) 0%, rgba(0,191,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(40,55,126,1) 0%,rgba(0,191,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(40,55,126,1) 0%,rgba(0,191,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28377e', endColorstr='#00bfff',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+
+input:focus{outline: 0;border: 1px solid #02bafa !important;}
